@@ -111,11 +111,13 @@ while True:
         auswahl = input()
         if auswahl=='1':
             print("                                                               ")
+            break
         elif auswahl=='2':
+            time.sleep(5)
+            sys.exit()
             break
         else:
             print("                                                               ")
             print("Bitte wählen Sie [1] weiter oder [2] zum beenden")
-    break
 time.sleep(5)
 sys.exit()
